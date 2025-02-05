@@ -1,0 +1,43 @@
+# Laravel specific exclusions
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+
+# Composer & NPM dependencies
+composer.lock
+yarn.lock
+npm-debug.log
+node_modules/
+
+# Laravel 4 specific exclusions
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & 6 specific exclusions
+.env.testing
+.env.production
+.env.development
+
+# Exclude any OS or IDE generated files (e.g. Mac, Windows, JetBrains)
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Other common exclusions
+!.gitignore
+
+# Additional project-specific exclusions
+compiled.php
+config.php
+down
+events.scanned.php
+maintenance.php
+routes.php
+routes.scanned.php
+schedule-*
+services.json

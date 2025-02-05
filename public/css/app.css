@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* AliceBlue */
+    padding: 10px;
+    border-bottom: 2px solid #4682b4; /* SteelBlue */
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 840px; /* Set the image width */
+    height: 200px; /* Set the image height */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3; /* LightGray */
+    border-radius: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4682b4; /* SteelBlue */
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e0f7fa; /* LightCyan */
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    border: 1px solid #87cefa; /* LightSkyBlue */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f8ff; /* AliceBlue */
+    border-top: 2px solid #4682b4; /* SteelBlue */
+    color: #333;
+}
+
+.current-time {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* H1 stílus hozzáadása */
+h1 {
+    color: #4b0082; /* Indigo */
+}
+
+
+
+
+
+
+
+
